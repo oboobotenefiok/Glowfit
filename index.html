@@ -2,6 +2,16 @@
 <html lang="en-US">
 
 <head>
+   <!-- Google tag (gtag.js) -->
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-M89WZD35SS"></script>
+ <script>
+  window.dataLayer = window.dataLayer || [];
+  
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  
+  gtag('config', 'G-M89WZD35SS');
+ </script>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,16 +21,16 @@
 
 <body>
   <noscript>
-   For The Best Experience, Kindly Enable Javascript On Your Browser.
+    For The Best Experience, Kindly Enable Javascript On Your Browser.
   </noscript>
-  <div class="">
+  <div class="hero">
     <h1 class="desktop">GlowFit</h1>
-    <img src="/Screenshot_20251028-075748.png" style="width:100%" alt="hero-image" />
+    <img src="/vault/image.jpg" alt="hero-image" />
   </div>
   
-  <div class="">
+  <div class="form">
     
-    <section>
+    <section class="form">
       <h2>Join GlowFit</h2>
       <p class="desktop">Sign up for free</p>
       
@@ -31,19 +41,23 @@
         <input placeholder="•••••••••" type="password" name="password" id="password">
         
         <br />
-        <button type="submit">Start my Journey</button>
+        
+        <button class="submit" onclick="later()" type="submit">Start my Journey</button>
       </form>
       
       <br>
-      <span>- Or - </span>
+      
+      <span>-Or-</span>
       <!-- Use Javascript to display social login here for Google -->
       <p>Already have an account? <a href="">Login</a> </p>
     </section>
     
   </div>
   
-  <div class="">
-    <footer>Design inspired by <a href="https://twitter.com/GlowretheUX/status/1979711426609734089"> Glowree</a></a> </footer>
+  <div class="footer">
+    <pre>
+    <footer>Design inspired by<a href="https://twitter.com/GlowretheUX/status/1979711426609734089"> Glowree</a>, Codes written by<a href="https://oboobotenefiok.netlify.app"> Obot Obo</a> </footer>
+    </pre>
   </div>
   
   <script src="main.js"></script>

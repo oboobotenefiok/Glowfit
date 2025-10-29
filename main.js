@@ -1,1 +1,3 @@
-console.log('Hello World!');
+function later() {
+  alert('Coming Soon')
+}

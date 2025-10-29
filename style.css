@@ -1,7 +1,68 @@
 body {
     font-size: 15pt;
+    margin: 0%;
+    padding: 0%;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.form,
+.footer {
+    padding: 3%
 }
 
 .desktop {
     display: none;
 }
+
+section h2 {
+    text-align: center;
+}
+
+label {
+    font-size: 60%;
+    font-weight: bold;
+}
+
+input,
+button.submit {
+    width: 90%;
+    padding: 5%;
+    border: 0.05px solid #000;
+    border-radius: 15px;
+    margin: 2.5% 0% 5% 0%;
+}
+
+button.submit {
+    width: 100%;
+    background: #480F7E;
+    color: #fff;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+button.submit:hover,
+button.submit:active {
+    background: #1A0C28;
+}
+
+section p,
+.footer,
+footer {
+    text-align: center;
+    font-weight: bold;
+    font-size: 70%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:visited,
+a:active {
+    color: red
+}
+/*This looked faster somewhat :-).... Optimize for desktop, get set. Always use external styles with percentage values where you can. That was so cool, mehn. I see nothing wrong with the initial body font being that. It's like a prese thingy*/
