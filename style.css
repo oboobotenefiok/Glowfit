@@ -27,7 +27,7 @@ label {
 }
 
 input,
-button.submit {
+button.submit,.google{
     width: 90%;
     padding: 5%;
     border: 0.05px solid #000;
@@ -65,4 +65,44 @@ a:visited,
 a:active {
     color: red
 }
+
 /*This looked faster somewhat :-).... Optimize for desktop, get set. Always use external styles with percentage values where you can. That was so cool, mehn. I see nothing wrong with the initial body font being that. It's like a prese thingy*/
+
+.google {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background: #fff;
+    color: #000;
+    border: 1px solid grey;
+    border-radius: 15px;
+    transition: all 0.2s ease;
+}
+.or-divider {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+}
+
+.or-divider::before,
+.or-divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: black;
+}
+
+.or-divider::before {
+    margin-left: 35px;
+    margin-right: 5px;
+}
+
+.or-divider::after {
+    margin-right: 35px;
+    margin-left:5px;
+}
